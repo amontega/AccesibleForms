@@ -40,7 +40,7 @@
     <label for="phone">Phone</label>
     <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
 
-    <fieldset>
+    <fieldset style="display: flex; gap: 3em; align-items: center;">
         <legend>Preferred Contact Method <span class="required">*</span></legend>
         <label for="contactEmail">
             <input type="radio" id="contactEmail" name="contactMethod" value="email" required>
@@ -51,6 +51,7 @@
             Phone
         </label>
     </fieldset>
+    
 
     <label for="state">State of Residence <span class="required">*</span></label>
     <select id="state" name="state" required>
